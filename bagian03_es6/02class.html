@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contoh Class</title>
+</head>
+<body>
+    <h1>Contoh Class</h1>
+    <script>
+        class Olahraga {
+            kategori='';
+            organisasi='';
+            constructor() {
+                this.kategori = "Bulutangkis";
+                this.organisasi ="PBSI";
+            }
+            pilih_jenis(){
+                this.kategori="Tenis";
+                this.organisasi ="PELTI";
+            }
+        }
+        olga = new Olahraga();
+        console.log('Kategori:' + olga.kategori + ', Organisasi: ' + olga.organisasi);
+        olga.pilih_jenis();
+        console.log('Kategori:' + olga.kategori + ', Organisasi: ' + olga.organisasi);
+    </script>
+</body>
+</html>

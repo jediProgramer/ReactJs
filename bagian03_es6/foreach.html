@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contoh Foreach</title>
+</head>
+<body>
+    <h1>Menggunakan forEach</h1>
+    <script>
+        const atlitBulutangkis= [
+            {nama: "Tai Tzu Ying", negara: "Taiwan", tangan: "Kanan", rangking: 1},
+            {nama: "CHEN Yu Fei", negara: "Tiongkok", tangan: "Kanan", rangking: 2},
+            {nama: "Carolina MARIN", negara: "Spanyol", tangan: "Kiri", rangking: 3},
+            {nama: "Nozomi OKUHARA", negara: "Jepang", tangan: "Kanan", rangking: 4},
+            {nama: "Akane YAMAGUCHI", negara: "Jepang", tangan: "Kanan", rangking: 5},
+            {nama: "Ratchanok INTANON", negara: "Thailand", tangan: "Kanan", rangking: 6},
+            {nama: "PUSARLA V. Sindhu", negara: "India", tangan: "Kanan", rangking: 7},
+            {nama: "AN Se Young", negara: "Korea", tangan: "Kanan", rangking: 8},
+            {nama: "HE Bing Jiao", negara: "Tiongkok", tangan: "Kiri", rangking: 9},
+            {nama: "Michelle LI", negara: "Kanada", tangan: "Kanan", rangking: 10}
+        ];
+        // Iterasi array sebelumnya
+        // for(let i = 0; i < atlitBulutangkis.length; i++) {
+        //     console.log(atlitBulutangkis[i]);
+        // }
+        //Looping dengan forEach
+        atlitBulutangkis.forEach(function(item,index){
+            console.log(item);
+        });
+    </script>
+</body>
+</html>
